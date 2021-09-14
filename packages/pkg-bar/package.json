@@ -1,0 +1,14 @@
+{
+  "name": "pkg-bar",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "pkg-foo": "1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}

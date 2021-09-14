@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build-pkg-foo": "npm run-script build --workspace=pkg-foo",
+    "build-pkg-bar": "npm run-script build --workspace=pkg-bar"
+  }
+}

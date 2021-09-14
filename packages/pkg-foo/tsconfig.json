@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "module": "ES6",
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "outDir": "./lib",
+    // this package enables esModuleInterop
+    "esModuleInterop": true
+  },
+  "include": ["./src"]
+}

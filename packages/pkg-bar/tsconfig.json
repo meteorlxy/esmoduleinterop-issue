@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "module": "ES6",
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "outDir": "./lib",
+    // enabling any of the following flags will work
+    "allowSyntheticDefaultImports": false,
+    "esModuleInterop": false,
+    "skipLibCheck": false
+  },
+  "include": ["./src"]
+}
